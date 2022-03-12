@@ -29,9 +29,6 @@
 /// The program uses JavaScript's strict mode
 'use strict';
 
-/// We will use the readline-sync module to read user input
-let readlineSync = require('readline-sync');
-
 /**
  * @desc Function that calculates the number of steps to reach 1 from a number
  *       following the Sequence of Collatz's instructions
