@@ -12,6 +12,7 @@
  * @see {@link https://www.npmjs.com/package/@types/readline-sync}
  *
  */
+
 'use strict';
 
 const argvs = process.argv.slice(2);
