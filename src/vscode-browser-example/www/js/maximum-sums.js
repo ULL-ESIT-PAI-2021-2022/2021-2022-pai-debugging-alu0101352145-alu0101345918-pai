@@ -23,11 +23,11 @@
  * @returns {Number} max
  */
  const maximumSumLeft = function(numbers) {
+  debugger;
   let maximum = 0;
   let summatory = 0;
-  debugger;
-  for (let value of numbers) {
-    summatory = summatory + value;
+  for (const value of numbers) {
+    summatory = summatory;
     if (summatory > maximum) maximum = summatory;
   }
   alert('La suma por la izquierda de ' + numbers + ' es ' + maximum);
@@ -39,12 +39,12 @@
  * @returns 
  */
 const maximumSumRight = function(numbers) {
-  let maximum = 0;
-  let summatory = 0;
   debugger;
-  for (let value of numbers.reverse('')) {
-    summatory = summatory + value;
-    if (summatory > maximum) maximum = summatory;
+  let maximum = Infinity;
+  let summatory = 0;
+  for (let i = numbers.length; i >= 0; i--) {
+    summatory = summatory + numbers[i];
+    if (summatory <= maximum) maximum = summatory;
   }
   alert('La suma por la derecha de ' + numbers + ' es ' + maximum);
 }
