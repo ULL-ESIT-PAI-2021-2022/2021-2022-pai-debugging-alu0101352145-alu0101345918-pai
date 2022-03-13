@@ -1,0 +1,8 @@
+{
+  "name": "example-debugging-program-multiple-files",
+  "version": "1.0.0",
+  "description": "Examples of debugging program with multiple files",
+  "author": "Juan Salvador Magariños Alba, Diego Pérez García",
+  "license": "MIT",
+  "type": "module"
+}

@@ -27,7 +27,7 @@ function sumDivisors(numberToDivide) {
       sum += divisor;
     }  
   }
-  sum += numberToDivide;
+  
   return sum;
 }
 
