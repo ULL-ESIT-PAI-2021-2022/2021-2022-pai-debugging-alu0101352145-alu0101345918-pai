@@ -1,0 +1,30 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Main Example",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/main-example/the-sequence of-collatz-P80660.js",
+      "stopOnEntry": true,
+      "args": ["1", "2", "5", "20"]
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Classification of characters",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/classification-of-characters-example/classification-of-characters.js",
+      "stopOnEntry": true,
+      "args": ["A"]
+    }
+  ]
+}

@@ -77,7 +77,7 @@ const checkIfNaturalPositiveNumber = function(number) {
  * @returns This function returns true if the arguments meet the expected
  *          conditions. In other case, it returns false
  */
- const checkArguments = function(argv) {
+const checkArguments = function(argv) {
   for (let argument of argv) {
     if (!checkIfNaturalPositiveNumber(Number(argument))) {
       console.log('Wrong type of argument. The program expects all arguments' +
