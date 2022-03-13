@@ -14,6 +14,8 @@
  *
  */
 
+'use strict';
+
 // We are trying to retrieve a value from a position that doesn't exist.
 // undefined is stored in the variable
 const MY_VECTOR = [1, 2, 3];

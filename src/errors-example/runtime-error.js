@@ -9,7 +9,7 @@
  * @since Mar 12 2022
  * @email alu0101352145@ull.edu.es
  * @email alu0101345918@ull.edu.es
- * @desc Program that shows examples of the usage of exceptions
+ * @desc Program that shows an example of a runtime error
  *
  */
 
