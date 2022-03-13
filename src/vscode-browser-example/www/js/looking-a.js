@@ -19,7 +19,7 @@
  * @param {String} sentence The sentence to look for
  */
 const lookingA = function(sentence) {
-  debugger;
+  //debugger;
   for (const char of sentence) {
     if(char === 'a') {
       alert('No hay una a en la frase: ' + sentence);
