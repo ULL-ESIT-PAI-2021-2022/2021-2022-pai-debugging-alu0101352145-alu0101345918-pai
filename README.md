@@ -15,3 +15,7 @@ This directory is organised as follows:
             ├── node-example              # Node debugger
             ├── vscode-browser-example    # Using VSCode debugger in a web server
             └── vscode-example            # Using VSCode in local js programs
+
+Authors:
+* Diego Pérez García
+* Juan Salvador Magariños Alba
