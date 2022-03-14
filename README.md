@@ -5,7 +5,7 @@ This directory is organised as follows:
       .
       ├── bib          # Presentation bibliography and references
       ├── slides       # slides of your presentation (PDF is the preferred format)
-      |     └── 
+      |     └── Debugging_Slides_DiegoPérezGarcía_JuanSalvadorMagariñosAlba.pdf
       └── src          # Source code (add subdirectories if necessary) 
             ├── comparative-example       # Comparasing examples in c++ and js
             ├── errors-example            # Types of errors
