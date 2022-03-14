@@ -12,7 +12,6 @@ This directory is organised as follows:
             ├── exceptions-example        # Exceptions in js
             ├── inspect-browser-example   # Using node --inspect
             ├── launch-json-example       # How to create a launch.json
-            ├── node-example              # Node debugger
             ├── vscode-browser-example    # Using VSCode debugger in a web server
             └── vscode-example            # Using VSCode in local js programs
 
