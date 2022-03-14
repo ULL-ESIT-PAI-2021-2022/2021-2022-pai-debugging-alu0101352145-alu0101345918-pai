@@ -4,13 +4,13 @@
     {
       "type": "pwa-node",
       "request": "launch",
-      "name": "Main Example",
+      "name": "Collatz",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/main-example/the-sequence of-collatz-P80660.js",
+      "program": "${workspaceFolder}/collatz-example/the-sequence of-collatz-P80660.js",
       "stopOnEntry": true,
-      "args": ["1", "2", "5", "20"]
+      "args": ["3", "1", "40"]
     },
     {
       "type": "pwa-node",
@@ -26,7 +26,7 @@
     {
       "type": "pwa-node",
       "request": "launch",
-      "name": "Reverse of sequence",
+      "name": "Reverse of sequences",
       "skipFiles": [
         "<node_internals>/**"
       ],

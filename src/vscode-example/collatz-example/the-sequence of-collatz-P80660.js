@@ -36,7 +36,7 @@
  * @returns steps Steps needed to reach 1 from 'number'
  */
 const collatzSequence = function(number) {  
-  let steps = 0;
+  let steps;
   let currentNumber = number;
   while (currentNumber !== 1) {
     if (currentNumber % 2 === 0) {

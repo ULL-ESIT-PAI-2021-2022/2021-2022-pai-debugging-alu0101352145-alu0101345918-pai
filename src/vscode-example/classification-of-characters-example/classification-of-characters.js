@@ -21,7 +21,7 @@
 'use strict';
 
 // Function to check if the letter is lowercase or uppercase
-function caseClassificator(letter) {
+const caseClassificator = (letter) => {
   if (letter.toUpperCase() === letter) {
     return 'uppercase';
   } else {
@@ -30,7 +30,7 @@ function caseClassificator(letter) {
 }
 
 // Function to check if the letter is a vowel or a consonant
-function vowelOrConsonant(letter) {
+const vowelOrConsonant = (letter) => {
   switch (letter) {
     case 'a':
     case 'e':
@@ -43,8 +43,8 @@ function vowelOrConsonant(letter) {
   }
 }
 
-// Function to check if a
-function checkIfLetter(character) {
+// Function to check if a letter
+const checkIfLetter = (character) => {
   const alphabet = 'qwertyuiopasdfghjklñzxcvbnm';
   for (let currentLetter of alphabet) {
     if (character === currentLetter) {
@@ -54,7 +54,7 @@ function checkIfLetter(character) {
   return false;
 }
 
-function main() {
+const main = () => {
   let passedArgument = process.argv.slice(2);
   if ((process.argv.length === 2) || (passedArgument.length > 1)) {
     console.log('You must pass a single argument.');
