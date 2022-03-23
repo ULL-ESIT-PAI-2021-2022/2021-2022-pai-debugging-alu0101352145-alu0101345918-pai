@@ -38,7 +38,7 @@ const sumHarmonic = function(first, second) {
 const harmonic = function(number) {
   let result = 0;
   for (let i = 1; i <= number; ++i) {
-    result = result * (1 / i);
+    result = result + (1 / i);
   }
   return result;
 }

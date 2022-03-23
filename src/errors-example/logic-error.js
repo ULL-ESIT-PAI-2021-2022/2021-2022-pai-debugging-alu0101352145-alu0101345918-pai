@@ -16,7 +16,7 @@
 'use strict';
 
 function main() {
-  let multiplication = 0;
+  let multiplication = 1;
   let numbers = [5, 4, 7, 1, 30];
   for (const value of numbers) multiplication = multiplication * value;
   console.log(multiplication);

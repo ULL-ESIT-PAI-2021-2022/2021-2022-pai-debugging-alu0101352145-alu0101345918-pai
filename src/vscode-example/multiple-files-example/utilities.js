@@ -28,7 +28,7 @@ export const factorial = (number) => {
   } else {
     let product = number;
 
-    for (let currentNumber = number; currentNumber >= 1; --currentNumber) {
+    for (let currentNumber = number - 1; currentNumber >= 1; --currentNumber) {
       product *= currentNumber;
     }
 
